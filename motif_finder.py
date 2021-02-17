@@ -26,8 +26,8 @@ def get_args():
 # get arg parse arguments
 parseArgs = get_args()
 
-motif_file = parseArgs.fasta_file_in
-fasta_file = parseArgs.motif_file_in
+motif_file = parseArgs.motif_file_in
+fasta_file = parseArgs.fasta_file_in
 
 # svg filename 
 svg_name = fasta_file.split(".fa")[0] + ".svg"

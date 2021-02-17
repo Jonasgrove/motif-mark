@@ -121,7 +121,7 @@ class Gene:
 sequence = "ACGTYYYAC"
 motif = {"CCC":3}
 
-obj = Gene(sequence,0, 1, motif, "hello")
+obj = Gene(sequence, motif, "hello")
 
 print(obj.motif_coordinates)
 '''
